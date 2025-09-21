@@ -1,4 +1,10 @@
 {
   "item.gabecustmod.yguil": "YGuil",
-  "item.gabecustmod.rzn": "Razani"
+  "item.gabecustmod.rzn": "Razani",
+
+  "block.gabecustmod.yguil_block": "YGuil Block",
+  "block.gabecustmod.rzn_block": "Razani Block",
+
+  "creativetab.gabecustmod.gabecust_items": "GabeCust Items",
+  "creativetab.gabecustmod.gabecust_blocks": "GabeCust Blocks"
 }

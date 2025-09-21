@@ -1,6 +1,8 @@
 package net.gabecust.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.gabecust.tutorialmod.block.ModBlocks;
+import net.gabecust.tutorialmod.item.ModCreativeModeTab;
 import net.gabecust.tutorialmod.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -49,7 +51,10 @@ public class TutorialMod
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTab.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -66,9 +71,14 @@ public class TutorialMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES){
             event.accept(ModItems.YGUIL);
             event.accept(ModItems.RZN);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModBlocks.YGUIL_BLOCK);
+            event.accept(ModBlocks.RZN_BLOCK);
         }
     }
 
