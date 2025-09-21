@@ -11,12 +11,15 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TutorialMod.MOD_ID);
 
-    public static final RegistryObject<Item> YGUIL = ITEMS.register("yguil",
+    // adicionar aqui os novo itens
+
+    public static final RegistryObject<Item> ALUMINUM_INGOT = ITEMS.register("aluminum_ingot",
     () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> RZN = ITEMS.register("rzn",
+    public static final RegistryObject<Item> PURPLE_GOLD_INGOT = ITEMS.register("purple_gold_ingot",
     () -> new Item(new Item.Properties()));
 
+    //
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

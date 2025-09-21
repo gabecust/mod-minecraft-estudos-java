@@ -14,24 +14,28 @@ public class ModCreativeModeTab {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TutorialMod.MOD_ID);
 
+    // adicionar aqui as abas do criativo
+
     public static final RegistryObject<CreativeModeTab> GABECUST_ITEMS_TAB = CREATIVE_MODE_TABS.register("gabecust_items_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.YGUIL.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ALUMINUM_INGOT.get()))
                     .title(Component.translatable("creativetab.gabecustmod.gabecust_items"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.YGUIL.get());
-                        output.accept(ModItems.RZN.get());
+                        output.accept(ModItems.ALUMINUM_INGOT.get());
+                        output.accept(ModItems.PURPLE_GOLD_INGOT.get());
 
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> GABECUST_BLOCKS_TAB = CREATIVE_MODE_TABS.register("gabecust_blocks_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.YGUIL_BLOCK.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ALUMINUM_BLOCK.get()))
                     .withTabsBefore(GABECUST_ITEMS_TAB.getId())
                     .title(Component.translatable("creativetab.gabecustmod.gabecust_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModBlocks.YGUIL_BLOCK.get());
-                        output.accept(ModBlocks.RZN_BLOCK.get());
+                        output.accept(ModBlocks.ALUMINUM_BLOCK.get());
+                        output.accept(ModBlocks.PURPLE_GOLD_BLOCK.get());
 
                     }).build());
+
+    //
 
     public static void register(IEventBus eventBus) { CREATIVE_MODE_TABS.register(eventBus); }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "gabecustmod:block/rzn_block"
+    "all": "gabecustmod:block/aluminum_block"
   }
 }

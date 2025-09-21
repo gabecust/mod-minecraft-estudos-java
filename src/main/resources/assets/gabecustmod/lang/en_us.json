@@ -1,9 +1,9 @@
 {
-  "item.gabecustmod.yguil": "YGuil",
-  "item.gabecustmod.rzn": "Razani",
+  "item.gabecustmod.aluminum_ingot": "Aluminum Ore",
+  "item.gabecustmod.purple_gold_ingot": "Purple Gold Ore",
 
-  "block.gabecustmod.yguil_block": "YGuil Block",
-  "block.gabecustmod.rzn_block": "Razani Block",
+  "block.gabecustmod.aluminum_block": "Aluminum Block",
+  "block.gabecustmod.purple_gold_block": "Purple Gold Block",
 
   "creativetab.gabecustmod.gabecust_items": "GabeCust Items",
   "creativetab.gabecustmod.gabecust_blocks": "GabeCust Blocks"
