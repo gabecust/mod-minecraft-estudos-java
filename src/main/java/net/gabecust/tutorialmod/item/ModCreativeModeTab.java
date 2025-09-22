@@ -20,6 +20,7 @@ public class ModCreativeModeTab {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ALUMINUM_INGOT.get()))
                     .title(Component.translatable("creativetab.gabecustmod.gabecust_items"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.RAW_ALUMINUM.get());
                         output.accept(ModItems.ALUMINUM_INGOT.get());
                         output.accept(ModItems.PURPLE_GOLD_INGOT.get());
 
@@ -30,6 +31,8 @@ public class ModCreativeModeTab {
                     .withTabsBefore(GABECUST_ITEMS_TAB.getId())
                     .title(Component.translatable("creativetab.gabecustmod.gabecust_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.ALUMINUM_ORE_BLOCK.get());
+                        output.accept(ModBlocks.RAW_ALUMINUM_BLOCK.get());
                         output.accept(ModBlocks.ALUMINUM_BLOCK.get());
                         output.accept(ModBlocks.PURPLE_GOLD_BLOCK.get());
 

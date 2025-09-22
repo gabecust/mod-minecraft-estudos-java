@@ -13,6 +13,9 @@ public class ModItems {
 
     // adicionar aqui os novo itens
 
+    public static final RegistryObject<Item> RAW_ALUMINUM = ITEMS.register("raw_aluminum",
+    () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> ALUMINUM_INGOT = ITEMS.register("aluminum_ingot",
     () -> new Item(new Item.Properties()));
 

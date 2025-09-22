@@ -59,13 +59,19 @@ public class TutorialMod
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(ModItems.RAW_ALUMINUM);
             event.accept(ModItems.ALUMINUM_INGOT);
             event.accept(ModItems.PURPLE_GOLD_INGOT);
         }
 
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(ModBlocks.ALUMINUM_BLOCK);
             event.accept(ModBlocks.PURPLE_GOLD_BLOCK);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
+            event.accept(ModBlocks.ALUMINUM_ORE_BLOCK);
+            event.accept(ModBlocks.RAW_ALUMINUM_BLOCK);
         }
     }
 

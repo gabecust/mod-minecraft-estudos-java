@@ -20,21 +20,29 @@ public class ModBlocks {
 
     // adicionar aqui os novos blocos
 
+    public static final RegistryObject<Block> ALUMINUM_ORE_BLOCK = registerBlock("aluminum_ore_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final RegistryObject<Block> RAW_ALUMINUM_BLOCK = registerBlock("raw_aluminum_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
     public static final RegistryObject<Block> ALUMINUM_BLOCK = registerBlock("aluminum_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
 
     public static final RegistryObject<Block> PURPLE_GOLD_BLOCK = registerBlock("purple_gold_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.COPPER)));
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    //
 
     public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
         return toReturn;
     }
-
-    //
 
     public static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block){
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
