@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "gabecustmod:aluminum_ore",
+    "gabecustmod:raw_aluminum_block",
+    "gabecustmod:aluminum_block",
+    "gabecustmod:purple_gold_block"
+  ]
+}

@@ -22,19 +22,19 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> ALUMINUM_ORE_BLOCK = registerBlock("aluminum_ore",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+                    .strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> RAW_ALUMINUM_BLOCK = registerBlock("raw_aluminum_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+                    .strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> ALUMINUM_BLOCK = registerBlock("aluminum_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+                    .strength(1f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
 
     public static final RegistryObject<Block> PURPLE_GOLD_BLOCK = registerBlock("purple_gold_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+                    .strength(1f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
 
     //
 
