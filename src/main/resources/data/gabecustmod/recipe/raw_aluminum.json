@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "gabecustmod:raw_aluminum_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "gabecustmod:raw_aluminum"
+  }
+}

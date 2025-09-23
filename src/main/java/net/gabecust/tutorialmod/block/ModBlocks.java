@@ -20,7 +20,7 @@ public class ModBlocks {
 
     // adicionar aqui os novos blocos
 
-    public static final RegistryObject<Block> ALUMINUM_ORE_BLOCK = registerBlock("aluminum_ore_block",
+    public static final RegistryObject<Block> ALUMINUM_ORE_BLOCK = registerBlock("aluminum_ore",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(2f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 

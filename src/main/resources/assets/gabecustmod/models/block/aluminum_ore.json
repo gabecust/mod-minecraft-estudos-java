@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "gabecustmod:block/aluminum_ore_block"
+    "all": "gabecustmod:block/aluminum_ore"
   }
 }
