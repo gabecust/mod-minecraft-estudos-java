@@ -67,6 +67,10 @@ public class TutorialMod
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(ModBlocks.ALUMINUM_BLOCK);
             event.accept(ModBlocks.PURPLE_GOLD_BLOCK);
+            event.accept(ModBlocks.OLD_GOLD_BLOCK);
+            event.accept(ModBlocks.OLD_IRON_BLOCK);
+            event.accept(ModBlocks.OLD_DIAMOND_BLOCK);
+            event.accept(ModBlocks.OLD_EMERALD_BLOCK);
         }
 
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){

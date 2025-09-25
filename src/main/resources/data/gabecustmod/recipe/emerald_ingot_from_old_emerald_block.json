@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "gabecustmod:old_emerald_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecraft:emerald"
+  }
+}

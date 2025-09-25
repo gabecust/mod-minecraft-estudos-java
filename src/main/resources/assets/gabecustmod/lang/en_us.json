@@ -5,8 +5,12 @@
 
   "block.gabecustmod.aluminum_ore": "Aluminum Ore",
   "block.gabecustmod.raw_aluminum_block": "Block of Raw Aluminum",
-  "block.gabecustmod.aluminum_block": "Aluminum Block",
-  "block.gabecustmod.purple_gold_block": "Purple Gold Block",
+  "block.gabecustmod.aluminum_block": "Block of  Aluminum",
+  "block.gabecustmod.purple_gold_block": "Block of Purple Gold",
+  "block.gabecustmod.old_gold_block": "Old Block of Gold",
+  "block.gabecustmod.old_iron_block": "Old Block of Iron",
+  "block.gabecustmod.old_diamond_block": "Old Block of Diamond",
+  "block.gabecustmod.old_emerald_block": "Old Block of Emerald",
 
   "creativetab.gabecustmod.gabecust_items": "GabeCust Items",
   "creativetab.gabecustmod.gabecust_blocks": "GabeCust Blocks"

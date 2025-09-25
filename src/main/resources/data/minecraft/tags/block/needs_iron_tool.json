@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "gabecustmod:purple_gold_block"
+    "gabecustmod:purple_gold_block",
+    "gabecustmod:old_gold_block",
+    "gabecustmod:old_diamond_block",
+    "gabecustmod:old_emerald_block"
   ]
 }
