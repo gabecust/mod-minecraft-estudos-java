@@ -2,7 +2,9 @@ package net.gabecust.tutorialmod.item;
 
 import net.gabecust.tutorialmod.TutorialMod;
 import net.gabecust.tutorialmod.item.custom.ChiselItem;
+import net.minecraft.core.component.DataComponents;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -24,7 +26,10 @@ public class ModItems {
     () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel",
-    () -> new ChiselItem(new Item.Properties().durability(32)));
+    () -> new ChiselItem(new Item.Properties().rarity(Rarity.UNCOMMON).durability(32)));
+
+    public static final RegistryObject<Item> OLD_ENCHANTED_GOLDEN_APPLE = ITEMS.register("old_enchanted_golden_apple",
+    () -> new Item(new Item.Properties().rarity(Rarity.EPIC).food(ModFoodProperties.OLD_ENCHANTED_GOLDEN_APPLE).component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true)));
 
     //
 

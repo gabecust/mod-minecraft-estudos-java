@@ -26,6 +26,8 @@ public class ModCreativeModeTab {
 
                         output.accept(ModItems.CHISEL.get());
 
+                        output.accept(ModItems.OLD_ENCHANTED_GOLDEN_APPLE.get());
+
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> GABECUST_BLOCKS_TAB = CREATIVE_MODE_TABS.register("gabecust_blocks_tab",

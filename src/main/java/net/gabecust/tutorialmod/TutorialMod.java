@@ -68,6 +68,10 @@ public class TutorialMod
             event.accept(ModItems.CHISEL);
         }
 
+        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
+            event.accept(ModItems.OLD_ENCHANTED_GOLDEN_APPLE);
+        }
+
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(ModBlocks.ALUMINUM_BLOCK);
             event.accept(ModBlocks.PURPLE_GOLD_BLOCK);
