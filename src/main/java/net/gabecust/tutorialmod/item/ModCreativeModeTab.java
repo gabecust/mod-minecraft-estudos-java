@@ -24,6 +24,8 @@ public class ModCreativeModeTab {
                         output.accept(ModItems.ALUMINUM_INGOT.get());
                         output.accept(ModItems.PURPLE_GOLD_INGOT.get());
 
+                        output.accept(ModItems.CHISEL.get());
+
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> GABECUST_BLOCKS_TAB = CREATIVE_MODE_TABS.register("gabecust_blocks_tab",

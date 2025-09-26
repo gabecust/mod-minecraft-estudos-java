@@ -64,6 +64,10 @@ public class TutorialMod
             event.accept(ModItems.PURPLE_GOLD_INGOT);
         }
 
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES){
+            event.accept(ModItems.CHISEL);
+        }
+
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(ModBlocks.ALUMINUM_BLOCK);
             event.accept(ModBlocks.PURPLE_GOLD_BLOCK);
