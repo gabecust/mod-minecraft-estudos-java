@@ -1,7 +1,9 @@
 package net.gabecust.tutorialmod.item.custom;
 
 import net.gabecust.tutorialmod.block.ModBlocks;
+import net.gabecust.tutorialmod.component.ModDataComponentTypes;
 import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
@@ -52,6 +54,12 @@ public class ChiselItem extends Item {
                         item -> pContext.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
 
                 level.playSound(null, pContext.getClickedPos(), SoundEvents.ZOMBIE_VILLAGER_CONVERTED, SoundSource.BLOCKS, 0.6f, 1.75f);
+
+                ((ServerLevel)level).sendParticles(ParticleTypes.DRAGON_BREATH,
+                        pContext.getClickedPos().getX() + 0.5, pContext.getClickedPos().getY() + 0.5, pContext.getClickedPos().getZ() + 0.5,
+                        45, 0.5, 0.5, 0.5, 0.1);
+
+                pContext.getItemInHand().set(ModDataComponentTypes.COORDINATES.get(), pContext.getClickedPos());
             }
         }
 

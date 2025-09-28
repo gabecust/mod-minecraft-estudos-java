@@ -2,6 +2,7 @@ package net.gabecust.tutorialmod;
 
 import com.mojang.logging.LogUtils;
 import net.gabecust.tutorialmod.block.ModBlocks;
+import net.gabecust.tutorialmod.component.ModDataComponentTypes;
 import net.gabecust.tutorialmod.item.ModCreativeModeTab;
 import net.gabecust.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -42,6 +43,8 @@ public class TutorialMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModDataComponentTypes.DATA_COMPONENT_TYPES.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
