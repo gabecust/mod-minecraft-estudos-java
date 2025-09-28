@@ -40,6 +40,7 @@ public class ModCreativeModeTab {
                         output.accept(ModBlocks.ALUMINUM_BLOCK.get());
                         output.accept(ModBlocks.PURPLE_GOLD_BLOCK.get());
                         output.accept(ModBlocks.OLD_GOLD_BLOCK.get());
+                        output.accept(ModBlocks.OLDER_GOLD_BLOCK.get());
                         output.accept(ModBlocks.OLD_IRON_BLOCK.get());
                         output.accept(ModBlocks.OLD_DIAMOND_BLOCK.get());
                         output.accept(ModBlocks.OLD_EMERALD_BLOCK.get());

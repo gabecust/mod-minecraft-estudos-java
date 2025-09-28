@@ -40,6 +40,10 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(1f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
 
+    public static final RegistryObject<Block> OLDER_GOLD_BLOCK = registerBlock("older_gold_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
     public static final RegistryObject<Block> OLD_IRON_BLOCK = registerBlock("old_iron_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(1f).requiresCorrectToolForDrops().sound(SoundType.METAL)));

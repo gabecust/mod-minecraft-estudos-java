@@ -76,6 +76,7 @@ public class TutorialMod
             event.accept(ModBlocks.ALUMINUM_BLOCK);
             event.accept(ModBlocks.PURPLE_GOLD_BLOCK);
             event.accept(ModBlocks.OLD_GOLD_BLOCK);
+            event.accept(ModBlocks.OLDER_GOLD_BLOCK);
             event.accept(ModBlocks.OLD_IRON_BLOCK);
             event.accept(ModBlocks.OLD_DIAMOND_BLOCK);
             event.accept(ModBlocks.OLD_EMERALD_BLOCK);
