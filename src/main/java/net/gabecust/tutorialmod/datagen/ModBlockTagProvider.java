@@ -33,13 +33,13 @@ public class ModBlockTagProvider extends BlockTagsProvider{
         tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.ALUMINUM_ORE.get())
                 .add(ModBlocks.RAW_ALUMINUM_BLOCK.get())
-                .add(ModBlocks.ALUMINUM_BLOCK.get());
+                .add(ModBlocks.ALUMINUM_BLOCK.get())
+                .add(ModBlocks.OLD_IRON_BLOCK.get());
 
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.PURPLE_GOLD_BLOCK.get())
                 .add(ModBlocks.OLD_GOLD_BLOCK.get())
                 .add(ModBlocks.OLDER_GOLD_BLOCK.get())
-                .add(ModBlocks.OLD_IRON_BLOCK.get())
                 .add(ModBlocks.OLD_DIAMOND_BLOCK.get())
                 .add(ModBlocks.OLD_EMERALD_BLOCK.get());
     }
