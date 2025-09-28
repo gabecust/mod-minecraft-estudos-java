@@ -1,0 +1,10 @@
+// 1.21	2025-09-28T10:45:18.0687743	Loot Tables
+22a54a94da8ebbdff7a13f86210433e35bc2ddd4 data/gabecustmod/loot_table/blocks/aluminum_block.json
+2f7309cb13ae527de52cf18134e9807bb8718a85 data/gabecustmod/loot_table/blocks/aluminum_ore.json
+f8a7d999244ddc1f10dae035b3bd3792cf250b4c data/gabecustmod/loot_table/blocks/older_gold_block.json
+6b500faac36dc67f19835c2b85a78585af61d654 data/gabecustmod/loot_table/blocks/old_diamond_block.json
+18552cdb5113c68511358a0a67ca7f26c854ffe4 data/gabecustmod/loot_table/blocks/old_emerald_block.json
+f6165cbf254eca4b992b264265338b60e0f873de data/gabecustmod/loot_table/blocks/old_gold_block.json
+d67e535373be72c6850602eb2bc0415098987e1b data/gabecustmod/loot_table/blocks/old_iron_block.json
+2af79acb506140fee5b0da73492c4a6523131dd2 data/gabecustmod/loot_table/blocks/purple_gold_block.json
+7785f089d38c13538ca9fb2d87289174e809bb47 data/gabecustmod/loot_table/blocks/raw_aluminum_block.json

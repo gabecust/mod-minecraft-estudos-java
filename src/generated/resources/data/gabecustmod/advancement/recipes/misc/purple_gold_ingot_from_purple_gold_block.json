@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_purple_gold_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "gabecustmod:purple_gold_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "gabecustmod:purple_gold_ingot_from_purple_gold_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_purple_gold_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "gabecustmod:purple_gold_ingot_from_purple_gold_block"
+    ]
+  }
+}

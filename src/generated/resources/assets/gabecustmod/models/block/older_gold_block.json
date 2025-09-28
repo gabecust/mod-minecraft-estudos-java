@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "gabecustmod:block/older_gold_block_bottom",
+    "side": "gabecustmod:block/older_gold_block_side",
+    "top": "gabecustmod:block/older_gold_block_top"
+  }
+}

@@ -83,7 +83,7 @@ public class TutorialMod
         }
 
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
-            event.accept(ModBlocks.ALUMINUM_ORE_BLOCK);
+            event.accept(ModBlocks.ALUMINUM_ORE);
             event.accept(ModBlocks.RAW_ALUMINUM_BLOCK);
         }
     }

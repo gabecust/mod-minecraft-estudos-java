@@ -35,7 +35,7 @@ public class ModCreativeModeTab {
                     .withTabsBefore(GABECUST_ITEMS_TAB.getId())
                     .title(Component.translatable("creativetab.gabecustmod.gabecust_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModBlocks.ALUMINUM_ORE_BLOCK.get());
+                        output.accept(ModBlocks.ALUMINUM_ORE.get());
                         output.accept(ModBlocks.RAW_ALUMINUM_BLOCK.get());
                         output.accept(ModBlocks.ALUMINUM_BLOCK.get());
                         output.accept(ModBlocks.PURPLE_GOLD_BLOCK.get());

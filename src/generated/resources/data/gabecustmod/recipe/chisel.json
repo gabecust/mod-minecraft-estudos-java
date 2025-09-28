@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "gabecustmod:purple_gold_block"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "P": {
+      "item": "gabecustmod:purple_gold_ingot"
+    }
+  },
+  "pattern": [
+    " P#",
+    " NP",
+    "B  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "gabecustmod:chisel"
+  }
+}

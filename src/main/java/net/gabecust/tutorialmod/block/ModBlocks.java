@@ -20,7 +20,9 @@ public class ModBlocks {
 
     // adicionar aqui os novos blocos
 
-    public static final RegistryObject<Block> ALUMINUM_ORE_BLOCK = registerBlock("aluminum_ore",
+    // adicionar .noLootTable() se o bloco não tiver item (ex: plantas)
+
+    public static final RegistryObject<Block> ALUMINUM_ORE = registerBlock("aluminum_ore",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(1f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 

@@ -1,0 +1,4 @@
+// 1.21	2025-09-28T12:49:49.1406517	Tags for minecraft:block mod id gabecustmod
+0ea75d6b966bd7b2def0769982cc54f79eaf89c4 data/minecraft/tags/block/mineable/pickaxe.json
+9ea94747ba01a8d8e8f7cebbbac07b34c6b77529 data/minecraft/tags/block/needs_iron_tool.json
+683de845450026bec369935181446ea192a6de50 data/minecraft/tags/block/needs_stone_tool.json
